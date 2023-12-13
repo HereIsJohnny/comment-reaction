@@ -1,8 +1,8 @@
-import './App.css'
-import { Avatar, Box, Button, Circle, Fade, FormControl, FormLabel, HStack, Input, Spinner, Stack, Text, VStack } from '@chakra-ui/react'
+import { Avatar, Box, Button, Circle, Fade, FormControl, HStack, Input, Spinner, Stack, Text } from '@chakra-ui/react';
+import { useHover } from "@uidotdev/usehooks";
 import { useState } from 'react';
 import { RiSendPlane2Line } from "react-icons/ri";
-import { useHover } from "@uidotdev/usehooks";
+import './App.css';
 
 
 // type Emoji = Record<string, string>
